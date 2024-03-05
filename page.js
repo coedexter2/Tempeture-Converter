@@ -11,12 +11,12 @@ const page = {
         const htmlOutput = document.querySelector("#output")
 
         if (radioForm[0].checked) {
-            let output = ((conversionInput.value - 32) * (5/9));
+            let output = ((conversionInput.value - 32) * (5 / 9));
             htmlOutput.value = output + "°C"
         }
 
         else {
-            let output = ((conversionInput.value * (9/5)) + 32);
+            let output = ((conversionInput.value * (9 / 5)) + 32);
             htmlOutput.value = output + "°F"
         }
 
